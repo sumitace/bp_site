@@ -1,0 +1,141 @@
+.RadPanelbar_Black
+{
+     background:#d3d3d3;
+     margin:0px;
+     width: 190px;
+}
+.RadPanelbar_Black .item
+{
+	border: 0;
+	color:#571a17;
+	font-weight:bold;	
+}
+.RadPanelbar_Black .link
+{
+	color:#571a17;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-decoration: none;
+	width: auto;
+	font: 12px SegoeUI, Arial, sans-serif bold ;
+	font-weight:bold;
+	border-top:solid 1px #a36966;
+	padding-left:10px;
+}	
+.RadPanelbar_Black .last .link
+{
+	outline: 0;
+}
+
+.RadPanelbar_Black .item .link:hover
+{
+	
+	color: White;
+	font-weight:bold;	
+	background:#571a17;
+}
+* html .RadPanelbar_Black .item .link:hover
+{
+	background-position:0 1px;
+}
+*+html .RadPanelbar_Black .item .link:hover
+{
+	background-position:0 1px;
+}
+
+.RadPanelbar_Black .item .selected,
+.RadPanelbar_Black .item .selected:hover
+{
+
+	background:#571a17;
+	color: White;
+	font-weight:bold;
+    
+}
+
+.RadPanelbar_Black .item .disabled:hover,
+.RadPanelbar_Black .item .disabled:hover .text
+{
+	
+	cursor: default;
+	color: White;
+	font-weight:bold;
+}
+
+.RadPanelbar_Black .text
+{
+	margin: 4px 8px 5px 0px;
+}
+
+.RadPanelbar_Black_rtl .text
+{
+	margin: 4px 8px 5px 0;
+}
+
+.RadPanelbar_Black .group
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.RadPanelbar_Black .group .link
+{
+	font-size: 11px;
+	border: 0;
+	border-top:solid 1px #a36966;
+
+}
+
+.RadPanelbar_Black .level1 .link
+{
+	padding-left:25px;
+	
+}
+
+.RadPanelbar_Black_rtl .level1 .link
+{
+	
+	margin-left: 0;
+}
+
+.RadPanelbar_Black .level2 .link
+{
+	
+}
+
+.RadPanelbar_Black_rtl .level2 .link
+{
+	margin-right: 14px;
+	margin-left: 0;
+}
+
+.RadPanelbar_Black .level3 .link
+{
+	
+}
+
+.RadPanelbar_Black_rtl .level3 .link
+{
+	margin-right: 21px;
+	margin-left: 0;
+}
+
+.RadPanelbar_Black .group .link:hover,
+.RadPanelbar_Black .group .selected
+{
+	
+	color: White;
+	border: 0;
+}
+
+.RadPanelbar_Black .group .link
+{
+		zoom:1; /*fixes hover effect and image text falling in IE6*/
+}
+
+.RadPanelbar_Black .group .disabled:hover,
+.RadPanelbar_Black .group .disabled:hover .text
+{
+	text-decoration: none;
+	cursor: default;
+}

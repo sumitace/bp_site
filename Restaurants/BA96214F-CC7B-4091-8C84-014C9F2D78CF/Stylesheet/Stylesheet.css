@@ -1,0 +1,3203 @@
+body {
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0px;
+  background: url(../Images/Body-2.jpg) repeat-x;
+}
+form {
+  width: 950px;
+  margin: auto;
+}
+/*///////////////////////// Master Page //////////////////////*/
+
+/* Header */
+
+#divKloungeLogo
+{
+    background:url(../Images/Klounge.png) no-repeat;
+    height:32px;
+    width:136px;
+}
+#divHeaderLogo {
+  float: left;
+  background: url(../Images/BombayLogo.jpg) no-repeat;
+  height: 84px;
+  width: 150px;
+  margin-left: 10px;
+}
+#divHeaderAddress 
+{
+  float: left;
+  text-align:center;
+  font-size: 11px;
+  font-weight: bold;
+  color: #636363;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+#divHeaderRight {
+  float: right;
+}
+#divLoginMenu 
+{
+  background : inherit;
+  font-size: 11px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#divLoginMenu a {
+  color: #9f1315;
+  font-size: 11px;
+}
+#divAddress 
+{
+  text-align: left;
+  color: White;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+#divPhone 
+{
+    text-align: center;
+    background: url(../Images/PhoneIcon.gif) no-repeat;
+    width:110px;
+    height: 15px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#divFax 
+{
+    text-align: center;
+    background: url(../Images/FaxIcon.gif) no-repeat;
+    width:110px;
+    height: 15px;
+    padding-left: 20px;
+    margin-top: 5px;  
+}
+/*End Header */
+/* Navigation */
+
+#divMenuNavigation 
+{
+  padding-top :7px;
+  clear: both;
+  text-align: left;
+  height: 32px;
+  padding-bottom: 5px;
+
+}
+
+/*End Navigation */
+
+/* Footer */
+#divMasterPageFooter {
+  display: none;
+}
+#divMasterPageFooterLink {
+  float: left;
+  width: 500px;
+  text-align: left;
+  padding-top: 10px;
+}
+#divExtraImageLink {
+  float: right;
+  width: 100px;
+}
+.CompanyLink {
+  color: black;
+  text-decoration: none;
+  /*font-weight: bold;*/
+  font-size: 10px;
+  margin-left: 50px;
+}
+#divMasterPageCompanyName {
+  float: left;
+  width: 200px;
+  color: black;
+  /*font-weight: bold;*/
+  font-size: 10px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+#PageFooter {
+  background: white;
+}
+/*End Footer */
+
+
+#divHomeFlash
+{
+    background:url(../Images/HomePageImage.jpg) no-repeat top;
+    background-position:center;
+    width:950px;
+    height:440px;
+    padding-top:10px;
+    
+}
+/*////////////////// Container ///////////////////*/
+
+/*Start Stylesheet for the Event Control */
+.EventContainerHeader {
+  background: url(../Images/ControlHeaderBg.jpg) repeat-x;
+  height: 33px;
+  vertical-align: middle;
+  font-size: 15px;
+  padding-top: 7px;
+}
+.EventContainer {
+  background: url(../Images/EventBg.jpg);
+  background-position: top;
+  height: 200px;
+  text-align: left;
+  overflow: auto;
+  width: 226px;
+}
+.EventContainerFooter {
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background: white;
+}
+.EventContainerFooter a {
+  color: Red;
+  text-decoration: none;
+}
+.EventContainerFooter a:hover {
+  text-decoration: underline;
+}
+.EventDate {
+  list-style: none;
+  font-weight: bold;
+  margin-left: 0px;
+  padding-top: 5px;
+}
+.EventContent {
+  font-weight: normal;
+}
+/*End Stylesheet for the Event Control */
+
+
+
+
+
+/* Home Page */
+#HomeFlash {
+  width: 950px;
+  height: 530px;
+}
+.divWindow {
+  display: none;
+  z-index: 0;
+}
+.divWindowActive {
+  z-index: 500;
+  display: block;
+  position: absolute;
+  background: url(../Images/TresperentBg.png);
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.divJITPromoActive {
+  width: 241px;
+  height: 270px;
+  z-index: 1100;
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+#divSpecialImage {
+  width: 241px;
+  height: 270px;
+}
+/* End Home Page */
+
+
+/* About Us Page */
+#AboutUsPageContainer {
+  text-align: center;
+}
+/* End About Us Page */
+
+
+/* Contact Us Page */
+#divContactUsPage {
+  text-align: left;
+  width: 100%;
+}
+#divContactUsCustomerDetail {
+  width: 410px;
+  float: left;
+  margin-left: 10px;
+  padding: 0px;
+}
+#tdContactUsDetail {
+  vertical-align: top;
+  padding-top: 20px;
+}
+#lblContactUsMessage {
+  font-size: 13px;
+}
+#tblContactUsDetail {
+  width: 400px;
+}
+.tdTblContactDetailLeft {
+  text-align: right;
+  width: 100px;
+}
+.tdTblContactDetailRight {
+  text-align: left;
+}
+#divContactUsAddressDetails {
+  float: right;
+  vertical-align: top;
+  width: 300px;
+  padding:25px;/**************************/
+  padding-left: 0px; /* background: url(../Images/Contact.jpg) no-repeat bottom right;     background-position: 10px 150px;*/
+  height: 270px;
+  padding-top:20px;
+}
+.txtContactUsComments {
+  width: 300px;
+}
+.ContactDetailButtonSend {
+  border: none;
+  background: url(../Images/Buttons/Send.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+  cursor: pointer;
+}
+.ContactDetailButtonCancel {
+  border: none;
+  background: url(../Images/Buttons/cancel.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+}
+#ContactUSContainer {
+  text-align: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 20px;
+}
+#ContactUsContent {
+  border: 1px solid #571a17;
+  width: 725px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+#divContactusDirection
+{
+    width:100%;
+    text-align:left;
+    padding-top:10px;
+}
+#divhlnDirection
+{
+    border: none;
+    background: url(../Images/Buttons/DirectionsAndParking.gif) no-repeat;
+    height: 25px;
+    width: 170px;
+    cursor: pointer;
+    
+}
+/* End Contact Us Page */
+/* Login Page */
+.LoginButton {
+  border: none;
+  background: url(../Images/Buttons/login.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+  margin-top: 5px;
+}
+.LoginCancel {
+  margin-top: 5px;
+  border: none;
+  background: url(../Images/Buttons/cancel.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+}
+/* End Login Page */
+.CreateUserRegiter {
+  border: none;
+  background: url(../Images/Buttons/register.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+}
+.MyProfileUpdate {
+  border: none;
+  background: url(../Images/Buttons/update.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#ViewOrderContainer {
+  text-align: left;
+  padding: 20px;
+  font-family: Verdana;
+}
+.ViewOrderGridView {
+  font-size: x-small;
+  color: #333333;
+}
+.ViewOrderGridViewFooterStyle {
+  color: White;
+  background-color: #990000;
+  font-weight: bold;
+}
+.ViewOrderGridViewRowStyle {
+  color: #333333;
+  background-color: #FFFBD6;
+}
+.ViewOrderGridViewCommandFieldItemStyle {
+  color: Blue;
+}
+.ViewOrderGridViewPagerStyle {
+  background-color: #FFCC66;
+  color: #333333;
+}
+.ViewOrderGridViewSelectedRowStyle {
+  background-color: #FFCC66;
+  color: Navy;
+  font-weight: bold;
+}
+.ViewOrderGridViewHeaderStyle {
+  color: White;
+  background-color: #990000;
+  font-weight: bold;
+}
+.ViewOrderGridViewAlternatingRowStyle {
+  background-color: White;
+}
+#ChangePassWord {
+  text-align: left;
+  padding-left: 300px;
+}
+
+#DirectionBorder {
+  height: 440px;
+  width: 562px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+#orderCheckout {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Addons {
+  color: Black;
+}
+.PanelLeft {
+  padding-left: 247px;
+}
+.EditOrder {
+  background: url(../Images/Buttons/Edit.html) no-repeat;
+  width: 76px;
+  height: 25px;
+}
+.PasswordSubmit {
+  border: none;
+  background: url(../Images/Buttons/confirm.gif) no-repeat;
+  width: 83px;
+  height: 25px;
+  margin-right: 100px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.ChangePasswordButton {
+  border: none;
+  background: url(../Images/Buttons/changePassword.gif) no-repeat;
+  width: 140px;
+  height: 25px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.CancelPasswordButton {
+  border: none;
+  background: url(../Images/Buttons/cancel.gif) no-repeat;
+  width: 83px;
+  height: 25px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#divContainer {
+  background: #f1f2ed;
+  margin: 0px;
+  width: 950px;
+}
+
+
+
+.RadPanelCssClass {
+  width: 200px;
+}
+.lblDirections {
+  padding-top: 10px;
+  text-align: center;
+}
+#DirectionContainer {
+  text-align: left;
+  padding-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#DirectionContent {
+  float: left;
+  width: 730px;
+  border: solid 1px #571a17;
+  padding: 5px;
+  margin-top: 1px;
+}
+#divDirectionContainer {
+}
+
+#divDirectionMap {
+  float: left;
+  padding: 10px 0px 10px 10px;
+}
+#divGetDirections {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#tdDirectionAddress {
+  padding-left: 50px;
+}
+#tdDirectionInfo {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.ifrmDirectionMap {
+  width: 562px;
+  height: 452px;
+}
+#divDirectionMapAddress {
+  float: right;
+  width: 250px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.directionTabButtonUnselected {
+  border: none;
+  background: #a14d17;
+  cursor: pointer;
+  color: White;
+}
+#divdirection {
+  height: 480px;
+  width: 562px;
+}
+#DirectionText {
+  width: 600px;
+}
+.SearchItemLabel {
+  color: White;
+  font-weight: bold;
+}
+.directionTabButtonSelected, .directionTabButtonSelected:hover {
+  border: none;
+  background: #311d12;
+  cursor: pointer;
+  color: Black;
+}
+#DirectionTitle {
+  font-size: 12px;
+  font-weight: bold;
+  color: #241100;
+  text-align: left;
+}
+#DirectionText {
+  color: #241100;
+  text-align: left;
+  font-size: 12px;
+}
+#divIdirection {
+  text-align: left;
+  padding-left: 130px;
+}
+#getDirectionFlashPath {
+  height: 445px;
+  width: 550px;
+  text-align: left;
+  padding-left: 5px;
+}
+#divMapDirection {
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+#divDirectionAddress {
+  padding-bottom: 5px;
+}
+.tdIdirection {
+  vertical-align: middle;
+  color: #69462f;
+  font-size: 14px;
+}
+.tdSendDirection {
+  height: 7px;
+  padding-top: 7px;
+}
+#tdSMSType {
+  vertical-align: top;
+  text-align: right;
+}
+.tdddlMobile {
+  text-align: left;
+  vertical-align: top;
+  padding-left: 11px;
+}
+#tdMobile {
+  text-align: right;
+  vertical-align: middle;
+}
+.cusLabel1 {
+  text-align: left;
+  color: #241100;
+  padding-right: 40px;
+}
+.OrderCheckoutConfirm {
+  border: none;
+  background: url(../Images/Buttons/confirm.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+  cursor: pointer;
+}
+.OrderCheckoutSubmit {
+  border: none;
+  background: url(../Images/Buttons/confirm.gif) no-repeat;
+  height: 25px;
+  width: 83px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+.visacard {
+  font-size: small;
+}
+.ContactUSAddress {
+  width: 250px;
+}
+#tdContactUsSubmitbtn {
+  padding-left: 150px;
+}
+#diveditorder {
+  padding-right: 100px;
+}
+.SubmitOrder {
+  text-align: center;
+  padding-top: 15px;
+}
+#LoginContianer {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#VerifyContainer {
+  background-color: #e7cc97;
+}
+#MessageContainer {
+  background: black;
+  color: Yellow;
+  padding: 10px;
+}
+.account_link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#SubMasterPageDiv {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: left;
+}
+#CreateUserContainer {
+}
+
+#RecoverPassWordContainer {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#ContactUsMenu {
+  float: left;
+}
+
+
+.surveySubmit {
+  background: url(../Images/Buttons/submit.gif) no-repeat;
+  width: 83px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+.surveyClear {
+  background: url(../Images/Buttons/clear.gif) no-repeat;
+  width: 83px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+#tblSurveyFeedbackContactInfo {
+  width: 600px;
+  text-align: left;
+}
+.tdSurveyFeedbackContactInfo {
+  text-align: right;
+  width: 206px;
+  vertical-align: top;
+  padding-top: 5px;
+}
+#htmlContactUSHeaderTitleContainer {
+  float: right;
+  background: Red;
+}
+#htmlContactUsTitle {
+  clear: both;
+  float: left;
+}
+#htmlContactUsTiming {
+  float: right;
+}
+.AdminStaticSelectedStyle, .AdminStaticHoverStyle {
+  background: #571a17;
+}
+.AdminStaticSelectedStyle a, .AdminStaticHoverStyle a:hover {
+  color: White;
+}
+.AdminMenu {
+  color: #571a17;
+  background: #d3d3d3;
+  height: 33px;
+}
+.AdminStaticMenuItemStyle {
+  font: 12px SegoeUI, Arial, sans-serif bold;
+  padding: 5px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  font-weight: bold;
+  color: #571a17;
+}
+#AdminContent {
+  border: solid 1px #8f8f69;
+  width: 864px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+
+#DirectionMenu {
+  float: left;
+}
+
+#tdDirectionView {
+  text-align: left;
+  padding-left: 20px;
+}
+#RestaurantLogo {
+  border: none;
+  height: 123px;
+  width: 446px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#RestaurantLink {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+.tdRule {
+  text-align: left;
+  font-weight: bold;
+  font-size: 13px;
+}
+.tdDescription {
+  text-align: left;
+  font-size: 13px;
+  padding-left: 20px;
+}
+.btnSubmitQuickContact {
+  background: url(../Images/Buttons/submit.gif) no-repeat;
+  border: none;
+  height: 25px;
+  width: 83px;
+  cursor: pointer;
+}
+#CateringConiner {
+  text-align: left;
+  padding: 25px;
+  border: solid 1px #571a17;
+  margin: 10px;
+}
+#TableBookingConiner {
+  text-align: left;
+  padding: 25px;
+  border: solid 1px #571a17;
+  margin: 10px;
+  margin-top: 0px;
+}
+#ReservationMenu {
+  text-align: left;
+  display: none;
+}
+#ReservationContent {
+  padding: 10px;
+}
+.tdTableBookingLeft {
+  text-align: right;
+  padding-right: 3px;
+  line-height: 30px;
+  vertical-align: top;
+  padding-top: 2px;
+}
+.CalenderImage {
+  background: url(../Images/Calendar.png) no-repeat;
+  border: none;
+  width: 16px;
+  height: 16px;
+}
+#tdCateringBtnSubmit {
+  padding-top: 10px;
+  padding-left: 200px;
+}
+.CreateUserStyleLabel {
+  width: 150px;
+  text-align: right;
+  padding-left: 200px;
+}
+.CreateUserStyleTextbox {
+  text-align: left;
+}
+#divDirectionFlash {
+  width: 726px;
+  height: 444px;
+  margin-bottom: 5px;
+  display: none;
+}
+#tdInteractiveDirection {
+  background: url(../Images/InteractiveDirection.jpg) no-repeat;
+  height: 444px;
+  width: 726px;
+  margin-bottom: 10px;
+}
+.InvoicePromotional {
+  text-align: right;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+  margin-left: 95px;
+  margin-right: 95px;
+}
+.InvoicePromotionalMessage {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+  margin-left: 95px;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+textarea {
+  width: 400px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+#tdGetDirectionsthrough {
+  height: 30px;
+  padding-left: 3px;
+}
+#td1DirectionspnlEmail, #td1DirectionsYourMsg {
+  text-align: right;
+  padding-right: 3px;
+}
+#td1DirectionsSMSType, #td1DirectionsMobile {
+  text-align: right;
+  padding-right: 3px;
+}
+#LoginInnerContainer {
+  padding-top: 10px;
+}
+.style_Myprofile {
+  width: 100%;
+  background: #fff;
+}
+.tdMyProfileWidth {
+  width: 39px;
+}
+.lblMyProfile {
+  width: 187px;
+  text-align: right;
+}
+.MyProfileColon {
+  width: 4px;
+}
+.txtMyProfile {
+  width: 144px;
+}
+#tdMyProfileMsg {
+  text-align: left;
+}
+.optsms {
+  background: url(../Images/Mobile.jpg) no-repeat right;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.optemail {
+  background: url(../Images/mail.jpg) no-repeat right;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#td2DirectionsSMSType {
+  padding-bottom: 7px;
+}
+.lblCountryCode {
+  display: none;
+}
+#td2DirectionsYourMsg {
+  padding-top: 5px;
+}
+.PrivacyPolicy {
+  display: none;
+}
+#divSurveyErrorMessage {
+  margin-top: 10px;
+  text-align: center;
+}
+.lblSurveyErrorMessage {
+  color: red;
+}
+.lblTableBookingErrorMessage {
+  color: Red;
+}
+.lblCateringErrorMessage {
+  color: Red;
+}
+.ContactUsMessage {
+  color: Red;
+}
+
+
+/*Start Stylesheet for Testimonial Page*/
+#divTestimonialContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#divTestimonialPageTitle {
+  text-align: left;
+  font-family: Sans-Serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 20px;
+  color: #9f0000;
+}
+.TestimonialContainer {
+  margin: 0px 3px 3px 3px;
+  background: white;
+  padding-bottom: 10px;
+  border-bottom: dotted 2px #d4d4d4;
+}
+.TestimonialTitle {
+  text-align: left;
+  color: #00507d;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.TestimonialText {
+  text-align: justify;
+  font-size: 12px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.TestimonialSource {
+  text-align: left;
+  color: #404040;
+  font-size: 13px;
+  width: 28%;
+  float: right;
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+/*End Stylesheet for Testimonial Page*/
+/*Start Stylesheet for News And EventsPage*/
+.divNewsAndEventsContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.NewsAndEventsContainer {
+  margin: 0px 3px 3px 3px;
+  padding-bottom: 10px;
+  border-bottom: dotted 2px #d4d4d4;
+}
+.NewsAndEventsTitle {
+  text-align: left;
+  color: #00507d;
+  font-size: 18px;
+}
+.NewsAndEvetnsText {
+  text-align: justify;
+  font-size: 12px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.NewsAndEventsSource {
+  text-align: left;
+  color: #404040;
+  font-size: 13px;
+  width: 28%;
+  float: right;
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+/*End Stylesheet for News And EventsPage*/
+
+
+
+#ctl00_ContentPlaceHolder1_GridView1 tr td {
+  border-color: #a36966;
+}
+.CartGrid {
+  border: solid 1px #a36966;
+}
+.lblBanquetPackageCategory {
+  color: Blue;
+  cursor: pointer;
+}
+.tdBanquetPackage {
+  text-align: left;
+  padding-left: 10px;
+}
+/*************** Style for the ResetPassword ******************/
+.forgotPassContainerDiv {
+  width: 75%;
+  background-color: White;
+  padding-bottom: 25px;
+}
+.forgotPassHeaderDiv {
+}
+
+.forgotPassHeaderIconImg {
+}
+.forgotPassHeaderIconTick {
+}
+
+.forgotPassHeaderText {
+  font-size: 18px;
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 45px;
+  text-decoration: underline;
+  color: #28262a;
+  background: url(../Images/ForgotPassword.jpg) no-repeat top left;
+  padding-bottom: 8px;
+}
+.EmailSentHeaderText {
+  font-size: 18px;
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 45px;
+  text-decoration: underline;
+  color: #28262a;
+  background: url(../Images/EmailSent.jpg) no-repeat top left;
+  padding-bottom: 8px;
+}
+.forgotPasswordContentDiv {
+  padding-top: 30px;
+  background-color: White;
+  border: 1px solid #8F8F69;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 60px;
+}
+.forgotPasswordContentDiv a:hover {
+  color: Orange;
+}
+.forgotPasswordContentDivTableContainer {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.forgotPasswordContentDivTable {
+  border: solid 1px black;
+}
+.spnEmailLabel {
+  font-weight: bold;
+  padding-left: 60px;
+}
+
+.txtChangePasswordEmailAddress {
+  width: 300px;
+}
+.btnGetEmail {
+  background: transparent url(../images/Buttons/GetPasswordLink.gif) no-repeat scroll 0 0;
+  background-position: top left;
+  width: 150px;
+  height: 27px;
+  cursor: pointer;
+  border: none;
+  margin-left: 150px;
+}
+.divBtnGetEmail {
+  padding-top: 10px;
+  text-align: left;
+  width: 100%;
+}
+.dicChangePasswordControlContainer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.lblChangePasswordErrMessage {
+  padding-left: 122px;
+  padding-bottom: 20px;
+}
+/************** End of style for the ResetPassword**************/
+
+/************ Start of ChangePassword Control **************/
+.tdOrderCheckoutLeft {
+  text-align: right;
+}
+.tdOrderCheckoutRight {
+  text-align: left;
+  padding-left: 3px;
+}
+.tdChangePasswordLeftCol {
+  text-align: right;
+  vertical-align: middle;
+  width: 180px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 13px;
+}
+.tdChangePasswordRightCol {
+  text-align: left;
+  padding-left: 3px;
+  vertical-align: text-top;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.tblResetPassword {
+}
+.btnChangePasswordContainer {
+  padding-top: 10px;
+  text-align: left;
+}
+/************ End of ChangePassword Control ************/
+
+
+/************Start Style of Events Page ****************
+#divEventsContainer
+{
+    padding-bottom: 10px;
+}
+#divEvents
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tblEventDate
+{
+    width: 100%;
+}
+.tdEventDateLeft
+{
+    width: 90px;
+    background: #c06335;
+    color: White;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+.tdEventDateRight
+{
+    background: #dfdfdf;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.divEventDescription
+{
+    width: 98%;
+    text-align: left;
+    padding: 10px;
+    padding-left: 35px;
+}
+.tblEventDescription
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tdEventDescriptionText
+{
+    color: Black;
+    text-align: left;
+    font-weight: bold;
+    width: 90px;
+    padding-left: 10px;
+}
+.tdEventDescription
+{
+    text-align: left;
+}
+.EventDateContainer
+{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15px;
+}
+.lblEventDate
+{
+    margin-left: 15px;
+}
+/************End Style of Events Page *****************/
+
+
+
+/************Start Style of Restaurant Promotion Page *****************/
+.divPromotionSpecialOfferControl {
+  width: 241px;
+}
+/************End Style of Restaurant Promotion Page *****************/
+
+#tblTableBookingContainer {
+  width: 550px;
+  float: left;
+}
+#divTableBookingBusinessHours {
+  width: 273px;
+  float: right;
+  vertical-align: top;
+}
+
+.InvoiceSubmit {
+  background: url(../Images/Buttons/submit.gif) no-repeat;
+  width: 83px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+.InvoiceCancel {
+  background: url(../Images/Buttons/cancel.gif) no-repeat;
+  width: 83px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+.RNTClass {
+  text-align: right;
+}
+#divSubwayAndBuses {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.ifrmSubwayAndBuses {
+  width: 100%;
+  height: 120px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/************Start Style of Events Page *****************/
+#EventLeft {
+  vertical-align: top;
+  width: 200px;
+}
+#divEventCategory {
+  border: solid 1px #e1dede;
+  width: 200px;
+}
+#EvetRight {
+  vertical-align: top;
+}
+.divEventDate {
+  text-align: left;
+}
+#tdEventDateLeftCurve {
+  background: url(../Images/Events/LeftDateCurve.jpg) no-repeat;
+  height: 31px;
+  width: 13px;
+}
+#tdEventDateContent {
+  background: url(../Images/Events/DateBg.jpg) repeat-x;
+  font-weight: bold;
+  color: White;
+}
+#tdEventDateRight {
+  background: url(../Images/Events/RightDateCurve.jpg) no-repeat;
+  height: 31px;
+  width: 13px;
+}
+.divEvent {
+  text-align: left;
+  background: #eeeded;
+  margin-right: 30px;
+}
+#tblEvent {
+  width: 100%;
+}
+#tdEventcontent {
+  padding-left: 20px;
+}
+#tdEventImage {
+  width: 175px;
+  height: 100px;
+  padding: 10px;
+}
+.imgEventImage {
+  width: 175px;
+  height: 100px;
+}
+.tdEventLeft {
+  text-align: right;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.tdEventRight {
+  text-align: left;
+  padding-left: 3px;
+}
+
+.tblEventDescription {
+  border-top: solid 1px #4f3a1c;
+  border-top-style: dashed;
+}
+.tdEventDescriptionTitle {
+  text-align: left;
+  color: #4c1116;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+}
+.tdEventDescription {
+  text-align: left;
+}
+#tblEventDate {
+}
+
+
+.divEventDescription {
+  min-height: 50px;
+  padding: 10px;
+  padding-right: 0px;
+}
+
+.imgEventImageNone {
+  display: none;
+}
+.divNoEventFound {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+/************End Style of Events Page *****************/
+
+/************Start Style of WebTelEventByDate Control *****************/
+#tblEventByDateHeader {
+  background: url(../Images/Events/EventByDateBg.jpg) repeat-x;
+  height: 39px;
+  width: 100%;
+  text-align: left;
+  color: #84011f;
+  padding-left: 10px;
+  font-size: 15px;
+}
+#divEventByTypeHeader {
+  background: url(../Images/Events/EventByDateBg.jpg) repeat-x;
+  height: 39px;
+  width: 100%;
+  text-align: left;
+  color: #84011f;
+  padding-left: 10px;
+  font-size: 15px;
+  border-top: solid 1px #e1dede;
+  border-bottom: solid 1px #e1dede;
+}
+.tdhlkEventName {
+  text-align: left;
+}
+.inactiveDateEvent {
+  background: url(../Images/Events/EventByTypeBg.jpg) repeat-x;
+  text-align: left;
+  color: Black;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  border-bottom: solid 1px #e1dede;
+  cursor: pointer;
+  text-decoration: none;
+}
+.activeDateEvent {
+  background: #7e2e26;
+  text-align: left;
+  color: White;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  border-bottom: solid 1px #e1dede;
+  cursor: pointer;
+  text-decoration: none;
+}
+.inactiveDateEvent a {
+  text-decoration: none;
+  color: Black;
+  cursor: pointer;
+}
+.inactiveDateEvent:hover {
+  text-decoration: none;
+  color: white;
+  background: #7c2c25;
+  cursor: pointer;
+}
+.activeDateEvent a {
+  text-decoration: none;
+  color: White;
+  font-weight: bold;
+}
+/************End Style of WebTelEventByDate Control *****************/
+
+
+
+/************Start Style of Restaurant Promotion Page *****************/
+
+
+#divLoginMessage {
+  font-size: 10px;
+  color: Red;
+}
+#divRegiserUserMessage {
+  font-size: 10px;
+  color: Red;
+  padding-bottom: 10px;
+}
+.lblOrderConfirmationMessage {
+}
+#divOrderConfirmationMessage {
+  color: Red;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-right: 100px;
+}
+
+
+/* start PayPal Page stylesheet */
+#PaypalContainer {
+}
+.PaypalConfirm {
+  background: url(../Images/Buttons/submit.gif) no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 83px;
+  height: 25px;
+}
+.PaypalCancel {
+  background: url(../Images/Buttons/cancel.gif) no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 83px;
+  height: 25px;
+}
+#divInvoiceConfirmation {
+  padding-bottom: 10px;
+}
+/* end PayPal Page Stylesheet*/
+
+/* SurveyFeedback start */
+.pnlFeedbackInoformation {
+  padding: 0px 10px 10px 10px;
+  font-family: Arial;
+  color: #212121;
+  font-size: 13px;
+}
+#SurveyFeedbackTitleContainer {
+  width: 100%;
+  text-align: center;
+}
+#SurveyFeedbackTitle {
+  padding-top: 6px;
+  height: 28px;
+  width: 230px;
+  text-align: center;
+  background: url(../Images/SurveyFeedback/SurveyFeedBackTitle.jpg);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.SurveyFeedbackStatement {
+  padding: 10px 10px 0px 10px;
+  font-size: 13px;
+  color: #212121;
+}
+
+#SurveyFeedbackConfidentialStatement {
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+}
+
+#SurveyFeedbackSectionSeperator {
+  border-top: solid 1px #cccccc;
+}
+
+#SurveyFeedbackCommonInformation {
+  padding-top: 10px;
+}
+
+.SurveyFeedbackUserEmailTextBox {
+  width: 250px;
+}
+
+#SurveyFeedbackOrderTime {
+  padding-left: 20px;
+}
+
+#SurveyFeedbackMayWeContactDiv {
+  padding: 10px;
+}
+
+.SurveyFeedbackQuestion {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.RadioButtonList label {
+  display: inline-block;
+  width: 50px;
+}
+
+.SurveyFeedbackSubTitleContainer {
+  background-color: #f5f5f5;
+  border: solid 1px #cccccc;
+  margin-bottom: 10px;
+}
+
+.SurveyFeedbackSubTitle {
+  padding-top: 6px;
+  height: 27px;
+  width: 143px;
+  text-align: center;
+  background: url(../Images/SurveyFeedback/SurveyFeedBackSubTitle.jpg);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.SurveyFeedbackContent {
+  padding: 10px;
+}
+
+#SurveyFeedbackOpinionAnswer {
+  padding-left: 25px;
+}
+
+#SurveyFeedbackSuggestion {
+  background-color: #f5f5f5;
+  border: solid 1px #cccccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+#FeedbackButtonDiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.SurveyFeedbackSubmit {
+  width: 83px;
+  height: 25px;
+  background: url(../Images/Buttons/submit.gif) no-repeat;
+  border: none;
+}
+
+.SurveyFeedbackClear {
+  width: 83px;
+  height: 25px;
+  background: url(../Images/Buttons/clear.gif) no-repeat;
+  border: none;
+}
+
+.SurveyFeedbackFoodQuestion {
+  text-align: right;
+  width: 150px;
+}
+
+.SurveyFeedbackFoodAnswer label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 125px;
+}
+
+.SurveyFeedbackFoodAnswer input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.SurveyFeedbackDeliveryPersonAnswer label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 90px;
+}
+
+.SurveyFeedbackDeliveryPersonAnswer input {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* SurveyFeedback end  */
+.lblShareInfo {
+  color: Red;
+}
+.lblASAPDatetimez {
+  color: Gray;
+  font-style: italic;
+}
+.lblOrderComment {
+  color: Gray;
+  font-style: italic;
+}
+/* for view order dashboard functionality */
+.gvwDashboardRowNotViewed {
+  background: url(../Images/OrderNotViewedBg.gif);
+  font-weight: bold;
+  color: Black;
+  width: 290px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.gvwDashboardRowViewed {
+  background-color: White;
+}
+.ViewOrderDashBoardGridView {
+  font-size: x-small;
+  color: #333333;
+  font-size: 13px;
+  margin: 10px;
+}
+.ViewOrderDashBoardGridViewFooterStyle {
+  color: White;
+  background-color: #990000;
+  font-weight: bold;
+}
+.ViewOrderDashBoardGridViewRowStyle {
+  color: #333333;
+  background-color: #FFFBD6;
+}
+.ViewOrderDashBoardGridViewCommandFieldItemStyle {
+  color: Blue;
+}
+.ViewOrderDashBoardGridViewPagerStyle {
+  background-color: #FFCC66;
+  color: #333333;
+}
+.ViewOrderDashBoardGridViewSelectedRowStyle {
+  background-color: #FFCC66;
+  color: Navy;
+  font-weight: bold;
+}
+.ViewOrderDashBoardGridViewHeaderStyle {
+  color: White;
+  background-color: #990000;
+  font-weight: bold;
+  height: 25px;
+}
+.ViewOrderDashBoardGridViewAlternatingRowStyle {
+  background-color: White;
+}
+.lblMesssageForDashBoard {
+  font-weight: bold;
+  color: Black;
+  width: 100%;
+  font-size: 14px;
+}
+.ViewOrderDashBoardGridViewPagerStyleAmtPaid {
+  padding-left: 10px;
+}
+.ViewOrderDashBoardGridViewEmptyRowStyle {
+  text-align: center;
+}
+.btnViewInvoiceForDashBoard {
+  border: none 0px;
+  background: url(../Images/ViewDashBoard.gif) no-repeat;
+  height: 25px;
+  width: 76px;
+  cursor: pointer;
+  margin: 0px;
+}
+.btnPrintInvoiceForDashBoard {
+  border: none 0px;
+  background: url(../Images/PrintDashBoard.gif) no-repeat;
+  height: 25px;
+  width: 76px;
+  cursor: pointer;
+  margin: 0px;
+}
+.btnViewLiveOrders {
+  background: #ed5802 url(../Images/ViewLiveOrder.gif) repeat scroll 0 0;
+  height: 30px;
+  width: 702px;
+  cursor: pointer;
+  color: White;
+  font-weight: bold;
+  font-size: 16px;
+  border: solid 1px #ed5802;
+  margin: 0px;
+  padding: 0px;
+}
+#divNavigateToDashBoard {
+  text-align: center;
+}
+#spanNewOrders {
+  font-size: 14px;
+  font-weight: bold;
+}
+.btnUnifiedDashboardRefresh {
+  cursor: pointer;
+  border: none 0px;
+  background: url(../Images/refresh.gif) repeat scroll 0 0;
+  height: 25px;
+  width: 91px;
+}
+/*end of dashboard styles*/
+
+
+/* (START )Styles For Gift Certificate */
+
+#divGiftMasterContainer {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 50px;
+}
+.tdLabel {
+  text-align: right;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-left: 10px;
+  padding-right: 5px;
+  width: 35;
+}
+.tdLabelRight {
+  text-align: right;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-left: 15px;
+}
+.tdContent {
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.tdContent1 {
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.divGiftCertificateHeader {
+  padding-left: 5px;
+  background: url(../Images/GiftCertificateHeader_GiftCertificate.jpg) no-repeat;
+  width: 834px;
+  height: 157px;
+}
+.divGiftCardHeader {
+  padding-left: 5px;
+  background: url(../Images/GiftCertificateHeader_GiftCard.jpg) no-repeat;
+  width: 834px;
+  height: 157px;
+}
+.divGiftBothHeader {
+  padding-left: 5px;
+  background: url(../Images/GiftCertificateHeader_GiftCerfiticate%26Card.jpg) no-repeat;
+  width: 834px;
+  height: 157px;
+}
+
+
+#divUpdatePanelContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#divGiftCertificateBody {
+  width: 824px;
+  border-left: solid 5px #acacac;
+  border-right: solid 5px #acacac;
+  background-color: white;
+}
+#divGiftCertificateFooter {
+  margin-bottom: 0px;
+  background: url(../Images/GiftCertificateFooter.jpg) no-repeat;
+  width: 834px;
+  height: 47px;
+}
+
+#divGiftCardInformationHeader, #divGiftTemplateInformationHeader {
+  background: url(../Images/GiftCertificateTitleRepeat.jpg) repeat-x;
+  width: 750px;
+  height: 30px;
+  padding-top: 0px;
+}
+.tdGiftCardInformationHeaderM {
+  /*background: url(../Images/GiftCertificateTitleRepeat.jpg) repeat-x;*/
+  width: 750px;
+  height: 30px;
+  font-weight: bold;
+  font-size: larger;
+  padding-left: 15px;
+}
+.tdGiftCardInformationHeaderL {
+  background: url(../Images/pnlLT.jpg) no-repeat top left;
+  height: 31px;
+  width: 9px;
+  vertical-align: top;
+  float: left;
+  display: block;
+}
+.tdGiftCardInformationHeaderR {
+  background: url(../Images/pnlRT.jpg) no-repeat top right;
+  height: 31px;
+  width: 9px;
+  vertical-align: top;
+  float: right;
+  display: block;
+}
+#divGiftCardInformationBody {
+  background: #d5d5d5 url(../Images/GiftCardReciepientBody.jpg) repeat-x;
+  width: 750px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  text-align: left;
+  margin: 0px;
+}
+#divlblErrorMessage {
+  text-align: center;
+  color: Red;
+  padding-top: 10px;
+}
+
+
+.AddToCart {
+  border: none;
+  background: url(../Images/btnAddToCart.jpg) no-repeat;
+  height: 26px;
+  width: 100px;
+  cursor: pointer;
+}
+.UpdateToCart {
+  border: none;
+  background: url(../Images/UpdateToCart.gif) no-repeat;
+  height: 26px;
+  width: 119px;
+  cursor: pointer;
+}
+.btnContinue {
+  border: none;
+  background: url(../Images/btnContinue.jpg) no-repeat;
+  height: 26px;
+  width: 100px;
+  cursor: pointer;
+}
+.btnCancel {
+  border: none;
+  background: url(../Images/btnCancel.gif) no-repeat;
+  height: 26px;
+  width: 100px;
+  cursor: pointer;
+}
+.btnClear {
+  border: none;
+  background: url(../Images/btnClear.gif) no-repeat;
+  height: 26px;
+  width: 100px;
+  cursor: pointer;
+}
+.btnPrevious {
+  border: none;
+  background: url(../Images/Previous.gif) no-repeat;
+  height: 26px;
+  width: 100px;
+  cursor: pointer;
+}
+.btnChangeTemplate {
+  border: none;
+  background: url(../Images/btnChangeTemplate.jpg) no-repeat;
+  height: 26px;
+  width: 140px;
+  cursor: pointer;
+}
+
+#divlblErrorMessage {
+  padding-left: 30px;
+}
+
+.btnConfirm {
+  border: none;
+  background: url(../Images/btnConfirm.jpg) no-repeat;
+  height: 26px;
+  width: 100px;
+  cursor: pointer;
+}
+#divReciepientInformationHeader, #divShippingInformationHeader {
+  background: #dad8d9 url(../Images/GiftCertificateTitleRepeat.jpg) repeat-x;
+  width: 750px;
+  height: 30px;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+#divBillingInformationContainer, #divSenderInformationContainer, #divShippingInformationContainer {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 600px;
+  margin: 0px;
+  text-align: left;
+}
+.divGiftTemplateInformationContainer {
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 600px;
+  margin: 0px;
+  text-align: left;
+}
+
+#divTransactionInformation {
+  /*padding-top: 20px;     padding-left:20px;*/
+  padding: 0px;
+  width: auto;
+  margin: 0px;
+  text-align: left;
+  border: solid 2px black;
+}
+
+#divBillingInformationHeader, #divTransactionInformationHeader, #divSenderInformationHeader, .divGiftTemplateInformationHeader {
+  margin: 0px;
+  background: url(../Images/GiftCertificateTitleRepeat.jpg) repeat-x;
+  width: 750px;
+  height: 30px;
+  padding-top: 0px;
+  text-align: left;
+}
+#divReciepientInformationBody, #divShippingInformationBody {
+  margin: 0px;
+  background: #d5d5d5 url(../Images/GiftCardReciepientBody.jpg) repeat-x;
+  width: 750px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 0px;
+}
+.txtSenderName, .txtEmail, .txtAddressLine1, .txtAddressLine2 {
+  width: 370px;
+}
+.txtToName, .txtToEmail, .txtToAddressLine1, .txtToAddressLine2 {
+  width: 369px;
+}
+
+.txtPersonalizedMessage {
+  width: 600px;
+}
+
+.txtPhone, .txtState {
+  width: 115px;
+}
+.txtZip, .txtCity {
+  width: 130px;
+}
+.txtToPhone, .txtToState {
+  width: 115px;
+}
+.txtToZip, .txtToCity {
+  width: 120px;
+}
+#divGiftDetailsInfo {
+  padding-left: 20px;
+  width: 700px;
+}
+
+.pnlGiftCardInformation {
+  margin: 0px;
+  padding: 0px;
+}
+.pnlBillingInformation, .pnlSenderInformation, .pnlGiftTemplateInformation {
+  text-align: left;
+  padding-left: 0px;
+  margin: 0px;
+}
+.pnlTransactionInformation {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.divGiftCertificateHeaderNavigation {
+  background-position: bottom;
+  height: 42px;
+  width: 774px;
+  padding-left: 25px;
+  margin: 0px;
+}
+
+.divGiftCertificateHeaderNavigation1 {
+  background: url(../Images/GSHeaderFirstSelection.jpg) no-repeat;
+  background-position: bottom;
+  height: 42px;
+  width: 774px;
+  padding-left: 25px;
+}
+.divGiftCertificateHeaderNavigation2 {
+  background: url(../Images/GSHeaderSecondSelection.jpg) no-repeat;
+  background-position: bottom;
+  height: 42px;
+  width: 774px;
+  padding-left: 25px;
+}
+.divGiftCertificateHeaderNavigation3 {
+  background: url(../Images/GSHeaderThirdSelection.jpg) no-repeat;
+  background-position: bottom;
+  height: 42px;
+  width: 774px;
+  padding-left: 25px;
+}
+
+.divGiftCertificateHeaderNavigation4 {
+  background: url(../Images/GSHeaderFourthSelection.jpg) no-repeat;
+  background-position: bottom;
+  height: 42px;
+  width: 774px;
+  padding-left: 25px;
+}
+
+.divViewCardImage {
+  text-align: left;
+  height: 220px;
+  width: 602px;
+  margin: 0px;
+  padding-left: 250px;
+  padding-top: 70px;
+}
+.divViewCertificateImage {
+  text-align: left;
+  height: 287px;
+  width: 602px;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 100px;
+}
+
+#divViewCertificateViewCart {
+  padding-left: 23px;
+  margin-top: 20px;
+  padding-right: 23px;
+}
+#divPaymentOptionContainer {
+  padding: 20px;
+  padding-left: 80px;
+  width: 500px;
+  height: 25px;
+}
+
+#divPaymentOptionHeader {
+  float: left;
+  background: #c1bfc0 url(../Images/LeftPaymentCurve.jpg) no-repeat left;
+  color: White;
+  height: 22px;
+  padding: 10px;
+  font-size: 14px;
+}
+#divPaymentOptionList input {
+  vertical-align: top;
+  margin-top: 4px;
+}
+#divPaymentOptionList {
+  float: left;
+  margin: 0px;
+  margin-left: 5px;
+  background: #d8d4d3 url(../Images/RightPaymentCurve.jpg) no-repeat right;
+  height: 28px;
+  margin-right: 5px;
+  padding: 7px;
+  padding-left: 5px;
+  min-width: 280px;
+  width: auto !important;
+  width: 280px;
+}
+#divViewCertificateContainer {
+  margin: 0px;
+  width: 796px;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+#divGiftCertificateInnerContainer {
+  margin: 0px;
+  width: 796px;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.tblGiftCardInformationBody {
+  padding: 0px;
+  line-height: normal 5;
+  margin-top: 5px;
+}
+.innerTable {
+  padding: 0px;
+  table-layout: fixed;
+}
+#pnlReciepientInformation {
+  margin-left: 120px;
+}
+#divReciepientInfo {
+  padding-left: 20px;
+  width: 700px;
+}
+.tdButton {
+  text-align: center;
+  padding-top: 10px;
+}
+#divPaymentOption {
+  color: White;
+  background-color: #c3aa6a;
+  width: 100px;
+  height: 26px;
+  float: left;
+}
+
+#divGiftCertificateCart {
+  padding-top: 15px;
+  width: 750px;
+  padding-left: 20px;
+}
+#divViewCertificateCart {
+  padding-top: 15px;
+  width: 750px;
+  padding-left: 25px;
+}
+#divBillingInformationBody, #divTransactionInformationBody, #divSenderInformationBody, #divGiftTemplateInformationBody, #divGiftCardTemplateInformationBody {
+  background: #d5d5d5 url(../Images/GiftCardReciepientBody.jpg) repeat-x;
+  width: 750px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 0px;
+}
+.pnlEmptycartmessagebox {
+  width: 250px;
+  height: 125px;
+  border: solid 2px black;
+  background: #d5d5d5 url(../Images/GiftCardReciepientBody.jpg) repeat-x;
+}
+.pnlEmptycartmessageboxHeader {
+  background-color: #6f2927;
+  border: solid 1px Gray;
+  border-bottom: solid 2px Black;
+  color: white;
+}
+
+.pnlEmptycartmessageboxShipping {
+  width: 320px;
+  height: 125px;
+  border: solid 2px black;
+  background: #d5d5d5 url(../Images/GiftCardReciepientBody.jpg) repeat-x;
+}
+.pnlEmptycartmessageboxShippingHeader {
+  background-color: #6f2927;
+  border: solid 1px Gray;
+  border-bottom: solid 2px Black;
+  color: white;
+}
+
+.pnlEmptycartHeader {
+  background-color: Blue;
+  border: solid 1px Gray;
+  border-bottom: solid 2px Black;
+  color: white;
+}
+.divmessageboxHeader {
+  margin: 0px;
+  text-align: left;
+  padding: 5px;
+  height: 22px;
+  width: 250px;
+  white-space: nowrap;
+}
+
+
+#divTransactionmessagebox {
+  text-align: center;
+  padding: 5px;
+  padding-top: 10px;
+  color: Red;
+  width: 250px;
+}
+#lblTransactionerrormessage {
+}
+
+
+.modal {
+  z-index: 999;
+  background-color: Gray;
+  filter: alpha(opacity=40);
+  opacity: 0.7;
+}
+.updatemodalbackground {
+  z-index: 99999998;
+  background-color: Gray;
+  filter: alpha(opacity=40);
+  opacity: 0.7;
+}
+
+.lblOnlyOnePaymentOption {
+  color: black;
+  font-size: 14px;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.lblDayAndAmountForShippingMethod {
+  color: Red;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.divGiftTemplateItem {
+  vertical-align: bottom;
+  margin: 25px;
+  margin-left: 45px;
+  margin-right: 0px;
+  height: 130px;
+  background: white;
+  border: solid 20px white;
+}
+
+.divGiftTemplateItemSelected {
+  vertical-align: bottom;
+  margin: 0px;
+  margin-left: 252px;
+  margin-top: 20px;
+  height: 122px;
+  width: 153px;
+  background: white;
+  border: solid 20px white;
+}
+
+
+.lblSelectedGiftItem {
+  padding-bottom: 5px;
+  padding-left: 100px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tdGiftName a {
+  color: #5f080e;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tdGiftName {
+  padding-top: 3px;
+}
+.lblGiftName {
+  color: #5f080e;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 3px;
+}
+.lblAmtRange {
+  vertical-align: bottom;
+  margin: 0px;
+  font-style: italic;
+  font-size: 11px;
+  color: Gray;
+}
+.radNumericTextBox {
+  width: 300px;
+}
+.RadInput_Default, .RadInputMgr_Default {
+  vertical-align: top !important;
+}
+
+#ctl00_ContentPlaceHolder1_ctl00_rntMinAmount_text {
+  width: 55px !important;
+}
+
+/* (END) Styles For Gift Certificate */
+/* (START) Personalized Message Style */
+
+#onmyown {
+  position: absolute;
+  top: 143.5%;
+  left: 60%;
+  z-index: 10;
+}
+
+
+.divMessagesContainer {
+  border: solid 2px Black;
+  width: 600px;
+}
+
+#divMessageHeader {
+  height: 25px;
+}
+
+
+#divMessagesBody {
+  padding: 5px;
+  max-height: 78px;
+  height: auto !important;
+  height: 78px;
+  overflow: scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  width: 612px;
+  border: solid 1px black;
+}
+
+.lnkMessage {
+  float: left;
+  color: Black;
+  text-align: left;
+  font-size: 11px;
+  text-decoration: none;
+}
+.lnkSelect {
+  float: right;
+  text-decoration: underline;
+  color: Blue;
+  font-size: 12px;
+  text-align: left;
+  width: 55px;
+  padding-left: 0px;
+}
+
+#divGiftTemplates {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.divGiftTemplateHeader {
+  font-size: 15px;
+  color: Black;
+  padding: 5px;
+}
+/*CollapsiblePanel*/
+.collapsePanel {
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+  width: 625px;
+}
+
+.collapsePanelHeader {
+  padding-top: 0px;
+  padding-left: 0px;
+  width: 625px;
+  height: 31px !important;
+  color: Black;
+  font-weight: bold;
+  background: url(../Images/GiftCertificateTitleRepeat.jpg) repeat-x;
+}
+
+.tdMessageInformationHeaderL {
+  height: 31px;
+  width: 9px;
+  vertical-align: top;
+  float: left;
+  display: block;
+}
+
+/* (END) Personalized Message Style */
+
+
+/* (START) Styles  For Reports */
+
+.Reportlink {
+  text-decoration: underline;
+  color: blue;
+}
+#divInformationMessage {
+  float: right;
+  vertical-align: bottom;
+  margin: 0px;
+  padding-right: 5px;
+  font-style: italic;
+  color: Gray;
+  margin-bottom: 5px;
+}
+
+#divDates {
+  clear: both;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+.lbldate {
+  padding-right: 5px;
+  padding-left: 0px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.tdListOfFilters * {
+  margin-bottom: 5px;
+}
+
+
+.tdListOfFilters {
+  margin-top: 2px;
+  vertical-align: bottom;
+  width: 18%;
+}
+.ddListOfWeek {
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.lbldatePicker input {
+  margin-bottom: 0px;
+}
+.lbldatePicker * {
+  vertical-align: bottom;
+  margin: 0px;
+  width: 95%;
+}
+.lnkButtonFilter {
+  cursor: pointer;
+  width: 90px;
+}
+.lblfilter {
+  padding-bottom: 2px;
+  padding-right: 5px;
+}
+
+/* (END) Styles For Reports */
+#ContentTop {
+  height: 10px;
+}
+
+#ReservationMenu {
+  display: none;
+}
+
+.ContactMenu, .DirectionMenu {
+  float: left;
+  background: #d3d3d3;
+  width: 196px;
+}
+#MediaGalleryMenu .ContactMenu {
+  float: left;
+  background: #d3d3d3;
+  width: 155px;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.ContactStaticMenuStyle, .DirectionStaticMenuStyle, .ReservationStaticMenuStyle {
+  font: 13px SegoeUI, Arial, sans-serif bold;
+  font-weight: bold;
+  color: #571a17;
+}
+
+.ContactStaticHoverStyle, .ContactStaticSelectedStyle, .DirectionStaticHoverStyle, .DirectionStaticSelectedStyle, .ReservationStaticHoverStyle, .ReservationStaticSelectedStyle {
+  font-weight: bold;
+  background: #571a17;
+}
+
+.ContactStaticHoverStyle a, .ContactStaticSelectedStyle a, .DirectionStaticHoverStyle a, .DirectionStaticSelectedStyle a, .ReservationStaticHoverStyle a, .ReservationStaticSelectedStyle a {
+  color: white;
+  font-weight: bold;
+}
+.ContactStaticMenuItemStyle, .DirectionStaticMenuItemStyle, .ReservationStaticMenuItemStyle {
+  font-weight: bold;
+  color: #571a17;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 1px;
+  line-height: 20px;
+  border-bottom: solid 1px #571a17;
+}
+
+.ContactStaticMenuItemStyle a, .DirectionStaticMenuItemStyle a, .ReservationStaticMenuItemStyle a {
+  font: -weight: bold;
+  padding-left: 10px;
+  display: block;
+}
+
+.ContactStaticMenuItemStyle a:hover, .DirectionStaticMenuItemStyle a:hover, .ReservationStaticMenuItemStyle a:hover {
+  color: White;
+}
+
+
+
+/************ Start Promotion Page *****************/
+.divPromotionLeftNavigationContainer {
+  background: #d3d3d3;
+  padding: 10px 0px 10px 0px; /*width:100%;*/
+}
+.PromotionLeftNavigation {
+  /*padding:10px;      margin-bottom:20px;*/
+}
+#divlinkPromo, #divlinkPromoAll {
+  height: 107px;
+  width: 110px;
+  padding: 10px;
+  background: white;
+  padding-bottom: 0px;
+}
+#divPromoTitle {
+  padding-top: 20px;
+  color: Black;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+.divPromotionContentContainer {
+  text-align: left; /*padding-left:17px;*/
+  width: 500px;
+}
+#divHeaderContainer {
+}
+
+.lblAllPromoTitle {
+  font-size: 13px;
+}
+#tdPromotionLeftNavigationContainer {
+  width: 25%;
+}
+
+#tdPromotionContentContainer {
+  width: 75%;
+  text-align: left;
+}
+
+/*.PromotionLeftNavigationDivSelection img
+{
+    border: solid 5px white !important;
+}*/
+.PromotionLeftNavigationDivSelection #divlinkPromoAll, .PromotionLeftNavigationDivSelection #divlinkPromo {
+  background: #650202;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+/************ End Promotion Page *****************/
+
+
+
+/*********** STYLESHEET FOR ORDER CONFIRMATION SCREEN ************/
+.confirmationContainer {
+  text-align: left;
+  padding-top: 20px;
+}
+.confirmationHeader {
+  width: 100%;
+  padding-top: 3px;
+  height: 24px;
+  border: solid 1px #51150d;
+  color: White;
+  font-size: 17px;
+  background-repeat: repeat-x;
+  background-image: url(../images/confheader.gif);
+  text-align: center;
+}
+.confirmationContent {
+  width: 100%;
+  border: solid 1px #51150d;
+  background-color: #f7f5f6;
+  padding: 10px 0px 10px 0px;
+}
+
+.viewOnlineOrder1stDiv, .viewTableBooking1stDiv, .viewCatering1stDiv, .viewContactUs1stDiv {
+  float: left;
+  width: 200px;
+  text-align: right;
+  padding: 5px 0px 5px 5px;
+}
+.viewOnlineOrder2ndDiv, .viewTableBooking2ndDiv, .viewCatering2ndDiv, .viewContactUs2ndDiv {
+  float: left;
+  padding: 0px 0px 5px 5px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+#divTxtOtherTextContainer {
+  display: none;
+  padding-left: 15px;
+}
+.btnApplyForConfirmation {
+  cursor: pointer;
+  background: url(../Images/ProcessOrder.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btnApplyAndPrintForConfirmation {
+  cursor: pointer;
+  background: url(../Images/ProcessOrderAndPrint.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.divSendCopyForOnlineOrder {
+  padding-top: 10px;
+}
+.txtSendCopyForOnlineOrder, .txtSendCopyForContactUsTo {
+  width: 272px;
+}
+.txtSendCopyToForCateringTo {
+  width: 283px;
+}
+.txtSendCopyForTableBookingTo {
+  width: 283px;
+}
+.pnlOrderAlreadyAck {
+  background: #f7f5f6;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#frmConfirmRequestContainer {
+  text-align: left;
+}
+#frmConfirmRequest {
+  font-size: 12px;
+  width: 100%;
+  text-align: left;
+}
+
+#frmConfirmRequestContent {
+  text-align: left;
+}
+.lblConfirmRequestMessage {
+  color: red;
+  font-weight: bold;
+}
+.pnlOrderConfirmationInstructionsFirstDiv {
+  display: block;
+  padding-top: 25px;
+  color: Red;
+  font-weight: bold;
+}
+.pnlOrderConfirmationInstructionsSecondDiv {
+  display: block;
+  padding-top: 15px;
+  font-weight: bold;
+  color: Blue;
+}
+.pnlViewOnlineOrderContainer {
+  padding-left: 10px;
+}
+.lblConfirmationHeader {
+  font-weight: bold;
+}
+.OrderConfirmationClose {
+  cursor: pointer;
+  background: url(../Images/OrderConfirmationClose.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.OrderConfirmationWaterMark {
+  color: Gray;
+  font-style: italic;
+  width: 200px;
+}
+.txtComment {
+  width: 200px;
+}
+
+.btnApplyAndPrintForConfirmationContactUs {
+  cursor: pointer;
+  background: url(../Images/ProcessOrderAndPrint.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btnApplyAndPrintForConfirmationCatering {
+  cursor: pointer;
+  background: url(../Images/ProcessOrderAndPrint.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btnApplyAndPrintForConfirmationTableBooking {
+  cursor: pointer;
+  background: url(../Images/ProcessOrderAndPrint.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btnApplyForConfirmationTableBooking {
+  cursor: pointer;
+  background: url(../Images/ProcessRequest.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btnApplyForConfirmationCatering {
+  cursor: pointer;
+  background: url(../Images/ProcessRequest.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btnApplyForConfirmationContactUs {
+  cursor: pointer;
+  background: url(../Images/ProcessRequest.gif) no-repeat;
+  height: 25px;
+  width: 150px;
+  margin: 0px;
+  border: none 0px;
+  color: White;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.divlblOrderAckMsgOther {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#divContactUsConfirmationContainer {
+  padding-left: 10px;
+}
+#divTableBookingConfirmationContainer {
+  padding-left: 10px;
+}
+#divCatringConfirmationContainer {
+  padding-left: 10px;
+}
+/*********** END OF STYLESHEET FOR ORDER CONFIRMATION ************/
+
+
+.tblVideoGalleryThumb {
+  background: #ffffff;
+  border: solid 1px black;
+}
+.tblVideoGalleryThumbSelected {
+  background: #c7ccc8;
+  border: solid 1px black;
+}
+
+.tblVideoGalleryThumbSelected .divVideoLable a {
+  color: Black;
+}
+
+
+.divVideoLable {
+  font-weight: bold;
+  text-align: left;
+}
+
+.divVideoLable a {
+  color: #000;
+}
+
+.tdVideoDescription {
+  padding: 3px;
+}
+
+.tdThumbText {
+  text-align: left;
+  vertical-align: top;
+  width: 150px;
+  padding-left: 5px;
+  line-height: 15px;
+  display: none;
+}
+
+.repeaterDiv {
+  display: none;
+}
+
+
+#MediaGalleryContainer {
+  padding-top: 10px;
+  text-align: left;
+}
+
+
+#divMusicFlash {
+  float: right;
+}
+
+
+
+
+
+
+
+.divHomeVideoGallery {
+  display: none;
+}
+.divHomeVideoGalleryActive {
+  z-index: 1000px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../Images/Transperent.png) fixed;
+  padding-top: 20px;
+  text-align: left;
+}
+.videoClose {
+  border: none;
+  background: url(../Images/VideoClose.png);
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  float: right;
+  margin: 5px;
+}
+#HomeVideo {
+  background: white;
+  width: 720px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+/****** (START)Event  ******/
+
+.gvwSelectDirection {
+  width: 612px;
+  border: solid 1px #571a17;
+}
+.gvwSelectDirectionRowStyle {
+  background: #e2e0e0;
+}
+.gvwSelectDirectionFooterStyle {
+  background: ##CCCC99;
+}
+.gvwSelectDirectionPagerStyle {
+  background: "#F7F7DE";
+  color: Black;
+  text-align: right;
+}
+.gvwSelectDirectionDescription {
+  padding-top: 5px;
+}
+.gvwSelectDirectionTitle {
+  font-weight: bold;
+  color: Black;
+}
+.tblSelectDirectionForMail {
+}
+#divSelectDirectionForMail {
+  padding-bottom: 5px;
+}
+#tdGetDifferentDirectionForMail {
+  text-align: left;
+  padding-top: 10px;
+}
+.gvwSelectDirectionSelectedRowStyle {
+  font-weight: bold;
+  color: White;
+  background: #e2e0e0;
+}
+.gvwSelectDirectionHeaderStyle {
+  background: #571a17;
+  color: White;
+}
+.gvwSelectDirectionAlternatingRowStyle {
+  background: #fff;
+}
+#ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_GetDifferentDirectionForMail1_gvwSelectDirection tr td {
+  border: solid 1px #571a17;
+}
+#ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_GetDifferentDirectionForMail1_gvwSelectDirection tr th {
+  border: solid 1px #571a17;
+}
+
+
+/****** (END) Event) ******/
+
+/************************************************Start Style for Announcement ****************************/
+
+#divEventsContainer {
+  padding-top: 10px;
+  text-align: left;
+}
+
+#divAnnouncementItemTemplate {
+  text-align: left;
+  width:100%;
+}
+#divAnnouncementTitleContainer {
+  clear: both;
+  text-align: left;
+  width: 100%;
+}
+#tblAnnouncementTitle {
+  width: 100%;
+}
+.lnkAnnouncementTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #5e0d14;
+  text-decoration:none;
+}
+
+.lnkAnnouncementTitle:hover {
+  text-decoration:underline;
+}
+
+
+.lblAnnouncementTiming {
+  color: #81200d;
+}
+.imgAnnouncement {
+  width:250px;
+  height:150px;
+}
+#divAnnouncementImageAndDescriptionContainer {
+  padding-top: 5px;
+}
+#divAnnouncementDescriptionContainer {
+  padding: 5px;
+  font: left;
+}
+#divAnnouncementContainer, #divPastAnnouncementContainer {
+  text-align: left;
+}
+
+#divAnnouncementNavigationContainer {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+}
+
+#divPastAnnouncementTitle, #divAnnouncementTitle {
+  margin-top:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  padding-top:5px;
+  height:23px;
+  padding-left:30px;
+  color:#591721;
+  font-weight:bold;
+}
+
+#tblAnnouncementItemTemplate
+{
+  padding:10px;
+  width:100%;
+}
+
+#tdAnnouncementImage {
+  text-align:center;
+  vertical-align:top;
+  width:250px;
+}
+
+#tdAnnouncementContent {
+  padding-left:5px;
+  text-align: left;
+  vertical-align: top;
+  width:100%;
+}
+
+#divAnnouncementSeperator
+{
+  width:100%;
+  height:1px;
+  border-bottom:dashed 1px #adadad;
+}
+
+.divAnnouncementContentContainer, .divPastAnnouncementContentContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.NoEventFound
+{
+  text-align:center;
+  font-weight:bold;
+  font-size:12px;
+  padding-top:15px;
+}
+
+.Annnav {
+}
+.hlnkAnnouncementLink {
+  text-decoration: none;
+  color: #591721;
+  font-weight: bold;
+  display: block;
+}
+
+.hlnkAnnouncementLink:hover {
+  color: #fdb813;
+  display: block;
+}
+.Annmenu-left {
+  height: 28px;
+  width: 9px;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Annmenu-mid {
+  height: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  cursor: pointer;
+  padding-top: 5px;
+}
+.Annmenu-right {
+  height: 28px;
+  width: 9px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.Annmenu-left-active {
+  height: 28px;
+  width: 9px;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Annmenu-mid-active {
+  height: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  cursor: pointer;
+  padding-top: 5px;
+  color: #fdb813;
+}
+.Annmenu-right-active {
+  height: 28px;
+  width: 9px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.hlnkAnnouncementLink:hover .Annmenu-left {
+  height: 28px;
+  width: 9px;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.hlnkAnnouncementLink:hover .Annmenu-mid {
+  height: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  cursor: pointer;
+  padding-top: 5px;
+}
+.hlnkAnnouncementLink:hover .Annmenu-right {
+  height: 28px;
+  width: 9px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+#tdAnnouncementIconImage {
+  vertical-align: top;
+  text-align: left;
+  width: 28px;
+}
+#tdAnnouncementTitle {
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 10px;
+}
+.divAnnouncementTitle {
+}
+
+.announcementIcon {
+  background: url(../Images/Announcement.png) no-repeat;
+  float: left;
+  width: 28px;
+  height: 28px;
+}
+.eventsIcon {
+  background: url(../Images/Events.png) no-repeat;
+  height: 28px;
+  width: 28px;
+  float: left;
+}
+.newsIcon {
+  background: url(../Images/News.png) no-repeat;
+  height: 28px;
+  width: 28px;
+  float: left;
+}
+.hlnkViewMore {
+  text-decoration: none;
+  color: #620f19;
+}
+.divAnnouncementViewMore {
+  clear: both;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+
+/* START (EventDetails.aspx) START */
+
+#divPublicationDetailBreadCrumb {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+#divEventDetailContainer {
+  text-align: left;
+  width: 950px;
+}
+
+#tblEventDetail {
+  margin: 0px 20px 20px 20px;
+  width: 910px;
+}
+
+#divAnnoucementDetailHeaderTitle {
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: #d2e9f7;
+}
+
+.lblAnnoucementDetailTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #224ba7;
+}
+
+#divAnnoucementDetailTimings {
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 10px;
+  color: #35434c;
+}
+
+#divAnnoucementDetailDescriptionContainer {
+  padding: 5px;
+}
+
+#divBackToPublication {
+  padding-top: 5px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.BackToPublication {
+}
+
+.BreadcrumbNode {
+  color: #3c6da7;
+  text-decoration: none;
+}
+
+.BreadcrumbCurrentNode {
+  color: #a1a1a1;
+}
+
+#divAnnoucementDetailImageContainer {
+  text-align: center;
+}
+
+/* END   (EventDetails.aspx)   End */
+
+

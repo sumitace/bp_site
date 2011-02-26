@@ -1,0 +1,744 @@
+﻿#divMenuPageContainer
+{
+}
+#tblMenuPage
+{
+    
+}
+.divMenuPageCategory
+{
+    
+    margin: 0px;
+    margin-left:5px;
+    width:190px;
+}
+#YourOrderText
+{
+    font-size: 13px;
+    width: 120px;
+}
+#tdOrderCartImage
+{
+  
+    
+}
+
+#DisableGrid
+{
+}
+
+#tdTblMenuPageCategory
+{
+    text-align: left;
+    vertical-align: top;
+    padding-right: 5px;
+    width:190px;
+}
+#tblMenuPageCategory
+{
+}
+#tdTreeViewMenuCategory
+{
+    vertical-align: top;
+    margin: 0px;
+}
+#divMenuMessage
+{
+    display:none;
+}
+#divItemList
+{
+    width:460px;
+}
+.pnlSearch
+{
+   width: 460px;    
+   background:url(../Images/SearchHeaderBg.jpg) repeat-x;
+   padding-top:5px;
+   padding-bottom:5px;
+}
+#ItemListBackground
+{
+    border: solid 1px #a36966;
+     
+}
+#tdItemList
+{
+    text-align: left;
+    vertical-align: top;
+    width: 460px;    
+ 
+}
+#tdtablesearch1
+{
+    width: 200px;
+    text-align: left;
+      
+}
+#tdtablesearch
+{
+    width: 200px;
+    text-align: right;
+ 
+    
+}
+
+#divSearchItemContainer
+{
+     background:url(../Images/SearchHeaderBg.jpg) repeat-x;
+}
+#divSearchItemLabel
+{
+    vertical-align: middle;
+    text-align: left;
+}
+.SearchItemLabel
+{
+    color: Black;
+    font-weight: bold;
+}
+#divSearchTextbox
+{
+}
+#tblSearchTable
+{
+    width: 200px;
+}
+#tdSearchCurve
+{
+    background: url(../Images/SearchCurve.jpg) no-repeat right top;
+    width: 20px;
+}
+#tdSearchTextBox
+{
+    background: url(../Images/SearchBg.jpg) repeat-x;
+}
+.txtSearch, .watermarked
+{
+    border: none;
+    background-color: Transparent;
+    margin-left: 5px;
+}
+.imgSearchItemButton
+{
+    margin: 0px;
+}
+
+#tdCategoryName
+{
+    
+    background: #571a17;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: solid 1px white;
+  
+}
+.lblCategoryName
+{
+    color: white;
+}
+#tdCategoryDescription
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+.lblCategoryDescription
+{
+    padding-left: 10px;
+    color: #d8b8a5;
+}
+#tdItem
+{
+    vertical-align: top;
+    background:white;
+}
+#tblItemDisplay
+{
+    margin-bottom: 1px;
+}
+#tblItemDisplay
+{
+    width: 100%;
+}
+#tdItemDescription
+{
+}
+.ItemDescription
+{
+    color: black;
+    font-family: Verdana;
+    font-size: 12px;
+    width: 460px;
+}
+.ItemListSelectedBg
+{
+    background: #f8f8f7 url(../Images/SelectedItemBg.jpg) repeat-x;
+    height: 31px;
+}
+.ItemListBg
+{
+    background: #e1e0dd;
+    height: 31px;
+    color: Black;
+}
+.ItemActive
+{
+    color: Black;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.ItemList
+{
+    color: Black;
+    padding-left: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.ItemPriceList
+{
+    text-align: right;
+    color: Black;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.ItemPriceActive
+{
+    text-align: right;
+    color: Black;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.ItemListImage
+{
+    
+}
+.ItemListImageActive
+{
+  
+}
+.ItemAlign
+{
+    text-align: right;
+}
+#tdItemName
+{
+    color: White;
+    font-size: xx-small;
+    vertical-align: top;
+    text-align: left;
+    width: 84%;
+}
+#tdItemPrice
+{
+    color: White;
+    font-size: xx-small;
+    vertical-align: middle;
+    text-align: center;
+    width: 10%;
+    padding-right: 10px;
+}
+#tdDropDownButton
+{
+    color: White;
+    font-size: xx-small;
+    text-align: center;
+    vertical-align: top;
+    width: 7%;
+}
+.ThumbItemTextSelected
+{
+}
+.ThumbItemText
+{
+    display: none;
+}
+#tdItemDetails
+{
+    /*	border: solid 1px #808080; */
+    text-align: left;
+}
+#tblItemDetails
+{
+    width: 100%;
+}
+#tblTopDiscription
+{
+    width: 100%;
+}
+#tdItemImage
+{
+    padding-top: 5px;
+}
+.imgItemImage
+{
+}
+#tdViewDetails
+{
+    vertical-align: top;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.ViewItemDetail
+{
+    color: #6d1515;
+    text-decoration: underline;
+    font-family: Verdana;
+    font-size: 11px;
+}
+#tdQuantityAndPrice
+{
+    text-align: left;
+    padding: 5px;
+    padding-top: 0px;
+    padding-right: 0px;
+    text-align: right;
+    vertical-align: top;
+    width: 180px;
+}
+#tblQuantityAndPrice
+{
+    text-align: right;
+}
+.lblItemQuantity
+{
+    color: black;
+    font-weight: bold;
+}
+.txtQuantityValue
+{
+    text-align: right;
+    width: 47px;
+}
+.lblItemTotal
+{
+    color: black;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.txtItemTotal
+{
+    text-align: right;
+    width: 47px;
+}
+.optAddOns
+{
+    width: 48px;
+    color: White;
+}
+
+#tdItemDetailFooter
+{
+    padding-left: 10px;
+}
+#tdItemComment
+{
+    padding-bottom: 10px;
+}
+.lblItemComment
+{
+    color: Black;
+    font-family: Verdana;
+}
+.txtItemComment
+{
+    height: 65px;
+    width: 250px;
+}
+#tdButtonCollection
+{
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: right;
+}
+.btnItemCancel
+{
+    background: url('../images/Buttons/cancel-2.gif') no-repeat;
+    height: 25px;
+    width: 83px;
+    border: none;
+    cursor: pointer;
+    margin-right: 32px;
+    margin-top: 5px;
+    text-align:left;
+}
+.btnAddToCart
+{
+    background: url(../Images/Buttons/btnAddItem.gif) no-repeat;
+    border: none;
+    font-size: small;
+    font-weight: 700;
+    height: 25px;
+    width: 96px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#tblOrderCart
+{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 275px;
+    border:solid 1px #a36966;
+}
+
+#tdOrderCart
+{
+    vertical-align: top;
+    height: 100%;
+    
+}
+#tdCartHeader
+{
+    font-weight: bold;
+    color: #754138;
+    text-align: center;
+    vertical-align: top;
+    background: url(../Images/SearchHeaderBg.jpg) repeat-x;
+    height:41px;
+   
+}
+#tblCartHeader
+{
+    width: 100%;
+   
+}
+#tdYourOrder
+{
+    text-align: center;
+    color: #754138;
+    height:45px;
+}
+#tdCartImage
+{
+}
+#tdCart
+{
+    vertical-align: top;
+    text-align: left;
+    padding-left: 1px;
+    padding-right:1px;
+}
+.CartGrid , .OrderCheckoutCartGrid ,#ctl00_ContentPlaceHolder1_GridView1
+{
+    font-family: Verdana;
+    font-size: 12px;
+    width: 100%;
+    background: #f7f7f7;
+    border:solid 1px #d3cfc4;
+    margin-right: 1px;
+   margin-bottom:2px;
+}
+#tdCartHeaderName
+{
+    text-align: left;
+    vertical-align: top;
+    width: 140px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+#tdCartHeaderQuantity
+{
+    text-align: right;
+    vertical-align: top;
+    width: 50px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+#tdCartHeaderTotal
+{
+    text-align: center;
+    vertical-align: top;
+    width: 80px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+#CartFooterTotal
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+#tblCartItems
+{
+    width: 100%;
+    font-family: Verdana;
+    font-size: 11px;
+    padding-left: 2px;
+    background:#f7f7f7;
+}
+#tdCartItemName
+{
+    text-align: left;
+    vertical-align: top;
+    width: 140px;
+}
+#tdCartItemQuantity
+{
+    text-align: right;
+    vertical-align: top;
+    font-size: 0.9em;
+    width: 50px;
+}
+#tdCartItemPrice
+{
+    text-align: right;
+    vertical-align: top;
+    font-size: 0.9em;
+    width: 80px;
+}
+#tdEditButton
+{
+    vertical-align: top;
+    width: 15px;
+}
+#tdDeleteButton
+{
+    vertical-align: top;
+    width: 15px;
+}
+#tdCartItemAddOnList
+{
+    text-align: left;
+    vertical-align: top;
+    font-size: 0.9em;
+    padding-left: 5px;
+}
+#tblCartFooter
+{
+    width: 100%;
+    background: #f4f0e6;
+}
+#tdTextUnit
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: left;
+    font-size: 0.9em;
+}
+#tdShippingCost
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: left;
+    font-size: 0.9em;
+}
+#tdShippingAmount
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: left;
+    font-size: 0.9em;
+}
+#tdTextAmount
+{
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: right;
+    vertical-align: top;
+    font-size: 0.9em;
+}
+#tdTotalAmount
+{
+    vertical-align: top;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+}
+#tdCartTotalAmount
+{
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#divConfirmOrder
+{
+    padding: 5px;
+    text-align: center;
+    background:#f4f0e6;
+}
+.imgConfirmOrder
+{
+    height: 27px;
+    width: 160px;
+}
+
+.UpdateToCart
+{
+    background: url('../images/Buttons/update-2.gif') no-repeat;
+    height: 27px;
+    width: 89px;
+    border: none;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+#divJITPcontainer a
+{
+    text-decoration: none;
+}
+#HeaderAdditional
+{
+    font-family: Verdana;
+    color: #d8c0b1;
+    padding: 5px;
+    text-align: left;
+}
+#HeaderRadioButtonList
+{
+    font-family: Verdana;
+    color: #d8c0b1;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+.EmptyCart
+{
+    border: none;
+    background: url(../Images/EmptyCart.jpg) no-repeat;
+    width: 82px;
+    height: 26px;
+    cursor: pointer;
+    margin:0px;
+}
+#tdEmptyCart
+{
+    width: 100px;
+    height:41px;
+}
+#tblItemListed
+{
+    width: 460px;
+}
+
+.lblItemDescription
+{
+    text-decoration: none;
+    color: Black;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.highlightSearchedText
+{
+    display: none;
+}
+.lblItemDescriptionActive
+{
+    text-decoration: none;
+    color: Black;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    padding-right: 10px;
+}
+#tdlblItemDescription
+{
+    padding-right: 15px;
+}
+#MenuPageBusinessHours
+{
+    display:none;
+}
+#tblOnlineOrderMessage
+{
+    text-align:left;
+    
+}
+#divOnlineOrderMessage
+{
+    text-align:left;
+      border:solid 1px #a36966;
+      padding-right:20px;
+      width:89%;
+      margin-top:3px;
+      margin-left:5px;
+}
+.lblOnlineOrderMessage
+{
+    color:Black;
+    text-align:left;
+   
+}
+#divFoodTypeImage
+{
+   background:url(../Images/FoodAllergyadvice.jpg) no-repeat;
+   width:190px;
+   height:150px;
+   margin-bottom:5px;
+   margin-left:5px;
+}
+#divImgDescription
+{
+   display:none;
+}
+#divFoodTypeVegetarian
+{
+   display:none;
+}
+.spanlbtItemDisplayNameClose
+{
+    color:Red;
+    padding-left:10px;
+}
+.spanlbtItemDisplayNameOpen
+{
+    color:Red;
+    padding-left:10px;
+}
+.ErrorMsg
+{
+    font-size:10px !important;
+}
+
+#MenuPageGalleryContainer {
+  padding-bottom: 5px;
+  padding-top:5px;
+}
+
+.MenuPagelGalleryContent {
+  height: 179px;
+  width: 940px;
+}
+.divPrintableMenuOnMenuPage
+{ 
+    border: none;
+    background: url(../Images/PrintableMenu.gif) no-repeat;
+    width: 190px;
+    height: 25px;
+    cursor: pointer;
+    margin-left:5px;
+}

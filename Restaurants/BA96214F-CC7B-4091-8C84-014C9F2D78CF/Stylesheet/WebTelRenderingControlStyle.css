@@ -1,0 +1,426 @@
+﻿.WebTelErrorMessage
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+.Addons
+{
+	color: black;
+	font-family: Verdana;
+}
+
+/*Start style for AdditionControl.ascx*/
+#tableAdditionControl
+{
+	width: 95%;
+}
+#AdditionHeaderDescription
+{
+	font-family: Verdana;
+	color:black;
+	padding: 5px;
+	text-align: left;
+}
+#AdditionVisible
+{
+	color: black;
+	font-family: Verdana;
+}
+#AdditionGroupCode
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	text-align: center;
+}
+#AdditonMySelection
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	text-align: center;
+}
+#AdditionItemList
+{
+	vertical-align: top;
+	padding-right: 5px;
+}
+#AdditionAddRemove
+{
+	vertical-align: middle;
+	width: 25px;
+	text-align: center;
+}
+#AdditionSelectedList
+{
+	padding-left: 5px;
+	vertical-align: top;
+}
+#AdditionFooterDescription
+{
+	
+	color: black;
+	padding: 5px;
+	text-align: left;
+}
+/*End style for AdditionControl.ascx*/
+
+
+/*Start style for CheckListBoxControl.ascx*/
+#CheckListHeaderDescription
+{
+	
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+#CheckListFooterDescription
+{
+	
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+/*End style for CheckListBoxControl.ascx*/
+
+/*Start style for DropDownListControl.ascx*/
+#DropDownHeaderDescription
+{
+
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+.DropDownListControlFont
+{
+	
+	font-size: 12px;
+	color: black;
+}
+#DropDownFooterDescription
+{
+	
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+/*End style for DropDownListControl.ascx*/
+
+/*Star style for RadioButton.ascx*/
+#RadioButtonHeaderDescription
+{
+	
+	color:black;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+#RadioButtonFooterDescription
+{
+	
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+/*End style for RadioButton.ascx*/
+
+/*Start style for Substitution.ascx*/
+#SubstitutionHeaderDescription
+{
+	
+	color: black;
+	padding: 5px;
+	text-align: left;
+}
+#SubstitutionContainer
+{
+	padding-left: 35px;
+}
+#SubtitutionTable
+{
+	border: solid 2px #6B5139;
+}
+#SubtitutionDefault
+{
+	padding-right: 20px;
+	vertical-align: top;
+}
+#SubtittutionDefaultTitle
+{
+	color: black;
+	text-align: center;
+	vertical-align: top;
+	border-right-style: solid;
+	border-color: #6B5139;
+	border-right-width: 2px;
+	padding-bottom: 4px;
+	padding-top: 3px;
+}
+#SubstitutionExtraTitle
+{
+	color: black;
+	text-align: center;
+	vertical-align: top;
+	padding-bottom: 4px;
+	padding-top: 3px;
+}
+#SubstitutionQtySpace
+{
+	padding-right: 20px;
+	vertical-align: top;
+}
+#SubstitutionDefaultQuantity
+{
+	color: black;
+	text-align: right;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-bottom: 4px;
+}
+#SubstitutionSelected
+{
+	color: black;
+	text-align: center;
+	vertical-align: top;
+	border-right-style: solid;
+	border-color: #6B5139;
+	border-right-width: 2px;
+	padding-bottom: 4px;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#SubstitutionExtraQuantity
+{
+	color: black;
+	text-align: center;
+	vertical-align: top;
+	padding-left: 20px;
+}
+#SubstitutionAmount
+{
+	color: black;
+	text-align: center;	
+	vertical-align: top;
+}
+#SubstitutionOptionName
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	color: White;
+}
+#SubstitutionQuantityLable
+{
+	text-align: right;
+	color: black;
+}
+#SubstitutionDropDown
+{
+	text-align: center;
+	border-right-style: solid;
+	border-color: #6B5139;
+	border-right-width: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 60px;
+}
+.ddlSubstitutionQty
+{
+	width: 45px;
+	text-align: right;
+}
+#SubstitutionExtraQtyTextBox
+{
+	text-align: center;
+	padding-left: 20px;
+}
+.txtSubtitutionExtraQty
+{
+	width: 28px;
+	text-align: right;
+}
+.SubstitutionExtraCost
+{
+	text-align: right;
+	color: black;
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#htSeperator
+{
+	border: 1px solid #6B5139;
+}
+#SubstitutionAvailSelection
+{
+	color: black;
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 4px;
+}
+#SubstitutionAvailSpace
+{
+	padding-right: 10px;
+}
+#SubstitutionTotal
+{
+	color: black;
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+#SubstitutionNetExtraTotal
+{
+	color: black;
+	text-align: right;
+	padding-right: 1px;
+	padding-bottom: 5px;
+}
+#SubstitutionFooterDescription
+{
+	font-family: black;
+	color: black;
+	padding: 5px;
+	text-align: left;
+}
+/*Start style for Substitution.ascx*/
+.PnlItemOptionContainer
+{
+		background:#f8f8f7;
+	padding-left:10px;
+
+	margin-top:0px;
+}
+.pnlMultipleSizeContainer
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #241100;
+	text-align: center;
+	margin-left:7px;
+}
+.pnlSingleSizeContainer
+{
+	text-align: center;
+	border:none;
+}
+.SelectedTab
+{
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	background:#311d12;
+	cursor:pointer;
+	color:black;
+}
+.UnSelectedTab
+{
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	background:#853c13;
+	cursor:pointer;
+	color:black;
+}
+
+
+/*Start style for OptionQuantity.ascx*/
+
+#divOptionQuantityHeaderDescription
+{
+	color: black; 
+	padding: 5px; 
+	text-align: left;
+}
+#divOptionQuantityContainer
+{
+	padding-left: 35px;
+}
+#tblOptionQuantityTable
+{
+	border: solid 2px #6B5139;
+}
+#tdOptionQuantityDefault
+{
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+#tdOptionQuantityExtraTitle
+{
+	color: black; 
+	text-align: center; 
+	vertical-align: top; 
+	padding-bottom: 4px; 
+	padding-top: 3px;
+}
+#tdOptionQuantitySpace
+{
+	padding-right: 20px; 
+	vertical-align: top;
+}
+
+#tdOQExtraQuantity
+{
+	color: black;
+	text-align: center; 
+	vertical-align: top;
+    padding-left: 20px;
+}
+#tdOQExtraAmount
+{
+	color: black; 
+	text-align: center; 
+	vertical-align: top;
+}
+#tdOQExtraOptionName
+{
+	padding-left: 10px; 
+	padding-right: 10px; 
+	color: black; 
+}
+
+#tdOQExtraQtyTextBox
+{
+	text-align: center; 
+	padding-left: 20px;
+}
+.txtOQSubtitutionExtraQty
+{
+	width:28px;
+	text-align:right;
+}
+.tdOQExtraCost
+{
+	text-align: right;
+    color: black; 
+    font-size:12px;
+    padding-right: 10px;
+    padding-left:10px; 
+   
+}
+#htOQSeperator
+{
+	border: 1px solid #6B5139;
+}
+
+#tdOQNetExtraTotal
+{
+	color: black; 
+	text-align: right; 
+	padding-right: 1px;
+    padding-bottom: 5px;
+}
+#divOptionQuantityFooterDescription
+{
+	color: black; 
+	padding: 5px; 
+	text-align: left;
+}
+/*Start style for OptionQuantity.ascx*/
